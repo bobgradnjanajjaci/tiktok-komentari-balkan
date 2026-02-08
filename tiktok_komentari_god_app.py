@@ -3,8 +3,8 @@ import requests, os, time, uuid
 
 app = Flask(__name__)
 
-PANEL_URL = "https://peakerr.com/api/v2"
-API_KEY = "59bee21fd4e3749a166ef96bb4d5c59f"
+PANEL_URL = "https://topsfollows.com/api/v2"
+API_KEY = "2dfeda739d3bb89557c82026f8daf832"
 SERVICE_ID = 1426
 
 # ✅ KOMENTARI OSTAJU ISTI
@@ -204,4 +204,5 @@ def status(job_id):
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port)
+
 
