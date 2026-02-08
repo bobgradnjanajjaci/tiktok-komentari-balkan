@@ -5,21 +5,22 @@ app = Flask(__name__)
 
 PANEL_URL = "https://peakerr.com/api/v2"
 API_KEY = "59bee21fd4e3749a166ef96bb4d5c59f"
-SERVICE_ID = 27194
+SERVICE_ID = 1426
 
 # ✅ KOMENTARI OSTAJU ISTI
 COMMENTS_SET_1 = [
-    "Find the book Encrypted Money Code by Ethan Rothwell. Whoever finds this book will have an unfair advantage in how to make money and be successful in life. Trust me on this one.",
-    "Why is no one talking about Encrypted Money Code by Ethan Rothwell? This book completely changed my perception of money and how we’re actually being controlled.",
-    "I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found it. Encrypted Money Code by Ethan Rothwell is an absolute game-changer. This book is like nothing I’ve ever seen before.",
-    "I used to think making money online was too hard for someone who didn’t know much about it, but this book actually worked for me. It’s called Encrypted Money Code by Ethan Rothwell. It helped me start making money — ngl, everyone should read it.",
-    "Encrypted Money Code by Ethan Rothwell is the only book I’ve read that actually made me feel dangerous in a good way. Page 13 is not normal.",
-    "I know it’s cliché to recommend books through comments and say it changed my life, but I have to recommend this one: Encrypted Money Code by Ethan Rothwell. There’s insane hidden information in there.",
-    "Plot twist — you seeing this comment about Encrypted Money Code by Ethan Rothwell isn’t random. Nothing is.",
-    "No influencer, no coach, no guru ever hit me the way Encrypted Money Code by Ethan Rothwell did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
-    "If you read only one book this year, let it be Encrypted Money Code by Ethan Rothwell. It will transform the way you look at money and success.",
-    "I’m telling you, the book Encrypted Money Code by Ethan Rothwell is on another level. You HAVE to experience it. It will change your life.",
-    "They banned Encrypted Money Code by Ethan Rothwell for a reason. I suggest y’all read it ASAP."
+     "If you read only one book this year, let it be Encrypted Money Code by Ethan Rothwell. It will transform your life.",
+"I'm telling you, book called Encrypted Money Code by Ethan Rothwell is on another level. You HAVE to experience it. It will change your life.",
+"You have no idea how POWERFUL Encrypted Money Code by Ethan Rothwell is. Read it, it changed my life.",
+"Just trust me, Encrypted Money Code by Ethan Rothwell is the book you NEED right now. It changed my life.",
+"If you’re looking for a book that truly changes everything, Encrypted Money Code by Ethan Rothwell is it. It will change your life.",
+"I can’t even explain it, book called Encrypted Money Code by Ethan Rothwell is different. You NEED this book. It changed my life.",
+"You won’t understand until you read Encrypted Money Code by Ethan Rothwell. It’s a MUST-read. It will change your life.",
+"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found it. Encrypted Money Code by Ethan Rothwell is an absolute game-changer. This book is like nothing I've ever seen before.",
+"I honestly don’t know where else to say this, but I have to share it here. I found something truly mind-blowing. The book Encrypted Money Code by Ethan Rothwell is on a whole different level, especially for anyone chasing success.",
+"No more gatekeeping just go and read the book Encrypted Money Code by Ethan Rothwell and thank me later for changing your life.",
+"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called Encrypted Money Code by Ethan Rothwell. It helped me succeed and start making money, ngl everyone should read it.",
+"Encrypted Money Code by Ethan Rothwell is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal."
 ]
 
 HTML = """
@@ -203,3 +204,4 @@ def status(job_id):
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port)
+
